@@ -147,11 +147,12 @@ button:hover {
     
     color: #ff0000;
     border: 2px solid rgba(255,0,0,0);
-    animation-name: blink;
+/*    animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+*/
 }
 
 label:focus {
