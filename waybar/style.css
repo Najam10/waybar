@@ -1,7 +1,7 @@
 * {
  	/* `otf-font-awesome` is required to be installed for icons */
 	font-family: FontAwesome;
-	font-size: 12px;
+	font-size: 20px;
 	color: #ffffff;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 1.0) /* @theme_text_color */;
 	border-radius: 20px; /*remove this line for rounded corners*/
@@ -154,7 +154,6 @@ button:hover {
     animation-direction: alternate;
 */
 }
-
 #battery.charging {
     
     color: #00FF00;
@@ -206,10 +205,16 @@ label:focus {
     border: 1px solid rgba(0,255,169,0.0);
 }
 
+#pulseaudio.bluetooth {
+    
+    border: 1px solid rgba(0,255,169,0.0);
+    color: #00dfff;
+}
+
 #pulseaudio.muted {
     
     border: 1px solid rgba(0,255,169,0.0);
-    color: #ec0000;
+    color: #ff0000;
 }
 
 #wireplumber {
